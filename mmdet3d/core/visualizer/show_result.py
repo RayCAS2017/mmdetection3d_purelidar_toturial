@@ -128,6 +128,8 @@ def show_result(points,
 
     if points is not None:
         _write_obj(points, osp.join(result_path, f'{filename}_points.obj'))
+        np.save(osp.join(result_path, f'{filename}_points'), points)
+
 
     if gt_bboxes is not None:
         # bottom center to gravity center
@@ -137,11 +139,14 @@ def show_result(points,
                              osp.join(result_path, f'{filename}_gt.obj'))
 
     if pred_bboxes is not None:
+
+        np.save(osp.join(result_path, f'{filename}_pred'), pred_bboxes)
         # bottom center to gravity center
         pred_bboxes[..., 2] += pred_bboxes[..., 5] / 2
 
         _write_oriented_bbox(pred_bboxes,
                              osp.join(result_path, f'{filename}_pred.obj'))
+
 
 
 def show_seg_result(points,
