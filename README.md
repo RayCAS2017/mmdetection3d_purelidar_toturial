@@ -42,6 +42,7 @@ dbinfos_train.pkl和gt_database是截取的gt 3d框信息和数据，用于数�
 
 #### 3、构建PureLidarDataset
 写一个继承CustomDataset的数据集PureLidarDataset，主要是修改了CustomDataset中的评估方法
+
 1）添加
 ```
 ./mmdet3d/datasets/purelidar_dataset.py
@@ -54,7 +55,7 @@ dbinfos_train.pkl和gt_database是截取的gt 3d框信息和数据，用于数�
 ./mmdet3d/core/evaluation/purelidar_eval.py
 ```
 需要在/mmdet3d/core/evaluation/__init__.py中申明可见
-![eval_init_](https://github.com/RayCAS2017/mmdetection3d_purelidar_toturial/raw/main/assets/eval_init.png)
+![eval_init_](https://github.com/RayCAS2017/mmdetection3d_purelidar_toturial/raw/main/assets/eval_init.jpg)
 
 #### 4、配置文件
 1）configs/_base_/datasets/minikitti-3d-3class_custom.py
