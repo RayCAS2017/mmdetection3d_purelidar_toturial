@@ -7,9 +7,11 @@
 
 ## 点云标注工具
 lidar点云标注工具采用的是[SUSTechPOINTS](https://github.com/naurril/SUSTechPOINTS.git)
+
 ![SUSTechPOINTS_UI](https://github.com/RayCAS2017/mmdetection3d_purelidar_toturial/raw/main/assets/main-ui.png)
 
 其标签格式如下
+
 ![SUSTechPOINTS_lable](https://github.com/RayCAS2017/mmdetection3d_purelidar_toturial/raw/main/assets/lidar_label.jpg)
 
 
@@ -32,6 +34,7 @@ dbinfos_train.pkl
 gt_database
 ```
 其中， train_annotaion.pkl和val_annotation.pkl记录的信息格式为:
+
 ![pickl_info](https://github.com/RayCAS2017/mmdetection3d_purelidar_toturial/raw/main/assets/plk_info.jpg)
 
 dbinfos_train.pkl和gt_database是截取的gt 3d框信息和数据，用于数据增强。
@@ -61,6 +64,11 @@ dbinfos_train.pkl和gt_database是截取的gt 3d框信息和数据，用于数�
 2)configs/pointpillars/hv_pointpillars_secfpn_6x8_160e_minikitti-3d-3class_custom.py
 
 ![config_model](https://github.com/RayCAS2017/mmdetection3d_purelidar_toturial/raw/main/assets/config_model.jpg)
+
+### 5、训练
+```
+./tools/train.py configs/pointpillars/hv_pointpillars_secfpn_6x8_160e_minikitti-3d-3class_custom.py --work-dir outputs/pointpillars_minikitti_custom_debug --gpu-id 0
+```
 
 
 
