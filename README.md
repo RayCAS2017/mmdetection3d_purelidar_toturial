@@ -32,6 +32,12 @@ SampleSets或者ImageSets
 
 ![samplesets](https://github.com/RayCAS2017/mmdetection3d_purelidar_toturial/raw/main/assets/samplesets.png)
 
+执行：
+
+```
+python ./tools/create_data_custom.py --root-path ./data/minikitti_sustech 
+```
+
 #### 2、生成中间文件
 添加的脚本为：
 ```
