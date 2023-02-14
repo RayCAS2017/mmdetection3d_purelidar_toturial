@@ -20,6 +20,18 @@ lidar点云标注工具采用的是[SUSTechPOINTS](https://github.com/naurril/SU
 #### 1、数据集准备
 
 
+需要准备的数据文件夹，包含点云bins、sustechpoint的标签文件labels、类别文件classnames.txt、以及训练和验证文件Samplesets或者Imagesets。
+
+数据文件夹
+![datasets](https://github.com/RayCAS2017/mmdetection3d_purelidar_toturial/raw/main/assets/datasets.png)
+
+类别文件
+![classnames](https://github.com/RayCAS2017/mmdetection3d_purelidar_toturial/raw/main/assets/classnames.png)
+
+SampleSets或者ImageSets
+
+![samplesets](https://github.com/RayCAS2017/mmdetection3d_purelidar_toturial/raw/main/assets/samplesets.png)
+
 #### 2、生成中间文件
 添加的脚本为：
 ```
