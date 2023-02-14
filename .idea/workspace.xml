@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fd51aa1f-78af-4b3b-99c5-07a8dc72601b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2Hl2bc5f50sRggf9onf4OoP3qBP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pcl_python" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
+  </component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="mySupportGeventDebugging" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\mmdetection3d\mmdet3d\core\evaluation" />
+      <recent name="D:\Projects\mmdetection3d\configs\pointpillars" />
+      <recent name="D:\Projects\mmdetection3d\configs\_base_\datasets" />
+      <recent name="D:\Projects\mmdetection3d\configs\_base_\models" />
+      <recent name="D:\Projects\mmdetection3d\configs\second" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.train_pointpillars_custom.py">
+    <configuration name="create_data_custom.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="mmdetection3d" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@10.2.3.21:8024/root/anaconda3/envs/mmdet3d/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$" remote-root="/root/project/mmdetection3d" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/create_data_custom.py" />
+      <option name="PARAMETERS" value="--root-path ./data/minikitti_sustech" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="create_data.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="mmdetection3d" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@10.2.3.21:8024/root/anaconda3/envs/mmdet3d/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$" remote-root="/root/project/mmdetection3d" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/create_data.py" />
+      <option name="PARAMETERS" value="kitti --root-path ./data/minikitti --out-dir ./data/minikitti --extra-tag kitti" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="draft.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="mmdetection3d" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@10.2.3.21:8024/root/anaconda3/envs/mmdet3d/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$" remote-root="/root/project/mmdetection3d" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draft.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pcd_bin_converter.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="mmdetection3d" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@10.2.3.21:8024/root/anaconda3/envs/mmdet3d/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$" remote-root="/root/project/mmdetection3d" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/data_converter/pcd_bin_converter.py" />
+      <option name="PARAMETERS" value="toy_kitti/bins --mode 2" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pcd_demo.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="mmdetection3d" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@10.2.3.21:8024/root/anaconda3/envs/mmdet3d/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$" remote-root="/root/project/mmdetection3d" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/pcd_demo.py" />
+      <option name="PARAMETERS" value="demo/data/kitti/000004.bin configs/pointpillars/hv_pointpillars_secfpn_6x8_160e_minikitti-3d-3class_custom.py  outputs/pointpillars_minikitti_custom_debug/latest.pth --out-dir outputs/pcd_demo_pointpillar_custom" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rotate_points.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="mmdetection3d" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@10.2.3.21:8024/root/anaconda3/envs/mmdet3d/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$" remote-root="/root/project/mmdetection3d" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rotate_points.py" />
+      <option name="PARAMETERS" value="demo/data/benewake/1669251218631.bin --angle 0.2 --axis 1" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_pointpillars_custom.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="mmdetection3d" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@10.2.3.21:8024/root/anaconda3/envs/mmdet3d/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$" remote-root="/root/project/mmdetection3d" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/train.py" />
+      <option name="PARAMETERS" value="configs/pointpillars/hv_pointpillars_secfpn_6x8_160e_minikitti-3d-3class_custom.py --work-dir outputs/pointpillars_minikitti_custom_debug --gpu-id 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_pointpillars.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="mmdetection3d" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@10.2.3.21:8024/root/anaconda3/envs/mmdet3d/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$" remote-root="/root/project/mmdetection3d" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/train.py" />
+      <option name="PARAMETERS" value="configs/pointpillars/hv_pointpillars_secfpn_6x8_160e_minikitti-3d-3class.py --work-dir outputs/pointpillars_minikitti_debug --gpu-id 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_second.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="mmdetection3d" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://root@10.2.3.21:8024/root/anaconda3/envs/mmdet3d/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$" remote-root="/root/project/mmdetection3d" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/train.py" />
+      <option name="PARAMETERS" value="configs/second/hv_second_secfpn_6x8_80e_minikitti-3d-3class_my.py --work-dir outputs/second_debug --gpu-id 0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.pcd_demo.py" />
+      <item itemvalue="Python.rotate_points.py" />
+      <item itemvalue="Python.create_data.py" />
+      <item itemvalue="Python.create_data_custom.py" />
+      <item itemvalue="Python.draft.py" />
+      <item itemvalue="Python.train_second.py" />
+      <item itemvalue="Python.train_pointpillars.py" />
+      <item itemvalue="Python.train_pointpillars_custom.py" />
+      <item itemvalue="Python.pcd_bin_converter.py" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd51aa1f-78af-4b3b-99c5-07a8dc72601b" name="Default Changelist" comment="" />
+      <created>1668845421574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668845421574</updated>
+      <workItem from="1668845427146" duration="8941000" />
+      <workItem from="1669170350708" duration="56050000" />
+      <workItem from="1669732600904" duration="423000" />
+      <workItem from="1671587849489" duration="1399000" />
+      <workItem from="1671595800168" duration="125758000" />
+      <workItem from="1672366107128" duration="3335000" />
+      <workItem from="1672721812348" duration="9806000" />
+      <workItem from="1675150207696" duration="1156000" />
+      <workItem from="1676024833267" duration="2866000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="120" key="#Deployment" timestamp="1668846255097">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="120" key="#Deployment/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1668846255097" />
+    <state x="-41" y="65" width="1080" height="675" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1676100639093">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="-41" y="65" width="1080" height="675" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1676100639093" />
+    <state x="324" y="255" width="996" height="547" key="#xdebugger.evaluate" timestamp="1672297204528">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="324" y="255" width="996" height="547" key="#xdebugger.evaluate/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1672297204528" />
+    <state width="1251" height="328" key="DebuggerActiveHint" timestamp="1672373198127">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1251" height="328" key="DebuggerActiveHint/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1672373198126" />
+    <state x="65" y="103" width="1255" height="735" key="DirDiffDialog" timestamp="1672380449518">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="65" y="103" width="1255" height="735" key="DirDiffDialog/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1672380449518" />
+    <state x="487" y="0" width="820" height="920" key="FileChooserDialogImpl" timestamp="1672739535011">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="487" y="0" width="820" height="920" key="FileChooserDialogImpl/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1672739535011" />
+    <state width="1397" height="254" key="GridCell.Tab.0.bottom" timestamp="1672380544918">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="254" key="GridCell.Tab.0.bottom/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1672380544918" />
+    <state width="1397" height="254" key="GridCell.Tab.0.center" timestamp="1672380544918">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="254" key="GridCell.Tab.0.center/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1672380544918" />
+    <state width="1397" height="254" key="GridCell.Tab.0.left" timestamp="1672380544918">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="254" key="GridCell.Tab.0.left/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1672380544918" />
+    <state width="1397" height="254" key="GridCell.Tab.0.right" timestamp="1672380544918">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="254" key="GridCell.Tab.0.right/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1672380544918" />
+    <state width="1397" height="269" key="GridCell.Tab.1.bottom" timestamp="1672380544913">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="269" key="GridCell.Tab.1.bottom/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1672380544913" />
+    <state width="1397" height="269" key="GridCell.Tab.1.center" timestamp="1672380544913">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="269" key="GridCell.Tab.1.center/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1672380544913" />
+    <state width="1397" height="269" key="GridCell.Tab.1.left" timestamp="1672380544913">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="269" key="GridCell.Tab.1.left/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1672380544913" />
+    <state width="1397" height="269" key="GridCell.Tab.1.right" timestamp="1672380544913">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="269" key="GridCell.Tab.1.right/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1672380544913" />
+    <state x="222" y="103" key="SettingsEditor" timestamp="1672294818065">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="222" y="103" key="SettingsEditor/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1672294818065" />
+    <state width="727" height="467" key="XDebugger.FullValuePopup" timestamp="1672300582617">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="727" height="467" key="XDebugger.FullValuePopup/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1672300582617" />
+    <state x="2187" y="1214" width="1005" height="1014" maximized="true" key="dock-window-1" timestamp="1672295466033">
+      <screen x="2160" y="0" width="1080" height="1880" />
+    </state>
+    <state x="2187" y="1214" width="1005" height="1014" maximized="true" key="dock-window-1/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1672295466033" />
+    <state x="135" y="169" width="1125" height="847" maximized="true" key="dock-window-2" timestamp="1672297022653">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="135" y="169" width="1125" height="847" maximized="true" key="dock-window-2/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1672297022653" />
+    <state x="2160" y="0" width="855" height="741" maximized="true" key="dock-window-3" timestamp="1669365123058">
+      <screen x="2160" y="0" width="1080" height="1880" />
+    </state>
+    <state x="2160" y="0" width="855" height="741" maximized="true" key="dock-window-3/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1669365123058" />
+    <state x="2160" y="23" width="964" height="741" maximized="true" key="dock-window-4" timestamp="1669365123058">
+      <screen x="2160" y="0" width="1080" height="1880" />
+    </state>
+    <state x="2160" y="23" width="964" height="741" maximized="true" key="dock-window-4/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1669365123058" />
+    <state x="2282" y="358" width="964" height="614" maximized="true" key="dock-window-5" timestamp="1669374139168">
+      <screen x="2160" y="0" width="1080" height="1880" />
+    </state>
+    <state x="2282" y="358" width="964" height="614" maximized="true" key="dock-window-5/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1669374139168" />
+    <state x="401" y="60" width="638" height="801" key="find.popup" timestamp="1672280119726">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="401" y="60" width="638" height="801" key="find.popup/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1672280119726" />
+    <state x="601" y="190" key="ftp.server.browser" timestamp="1668846251930">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="601" y="190" key="ftp.server.browser/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1668846251930" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1671867815886">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920/2160.0.1080.1880@0.0.1440.920" timestamp="1671867815886" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/demo/pcd_demo.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/demo/pcd_demo.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/apis/inference.py</url>
+          <line>509</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/demo/pcd_demo.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/apis/inference.py</url>
+          <line>139</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/train.py</url>
+          <line>251</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/apis/train.py</url>
+          <line>333</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/apis/train.py</url>
+          <line>343</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/apis/train.py</url>
+          <line>186</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/apis/train.py</url>
+          <line>318</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/1463116113/-1272079221/mmcv/runner/epoch_based_runner.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/1463116113/-1272079221/mmcv/runner/epoch_based_runner.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/models/middle_encoders/sparse_encoder.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_data.py</url>
+          <line>231</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_data.py</url>
+          <line>232</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_data.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_data.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_data.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_data.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/data_converter/create_gt_database.py</url>
+          <line>144</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/apis/inference.py</url>
+          <line>271</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rotate_points.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rotate_points.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rotate_points.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rotate_points.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rotate_points.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rotate_points.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rotate_points.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rotate_points.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rotate_points.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rotate_points.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rotate_points.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rotate_points.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rotate_points.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rotate_points.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/data_converter/pcd_bin_converter.py</url>
+          <line>112</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/data_converter/pcd_bin_converter.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/data_converter/pcd_bin_converter.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/data_converter/pcd_bin_converter.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/data_converter/pcd_bin_converter.py</url>
+          <line>120</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/data_converter/pcd_bin_converter.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/data_converter/pcd_bin_converter.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/data_converter/kitti_converter.py</url>
+          <line>195</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/data_converter/kitti_converter.py</url>
+          <line>225</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/data_converter/create_gt_database.py</url>
+          <line>337</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/configs/_base_/datasets/kitti-3d-3class.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/data_converter/kitti_converter.py</url>
+          <line>186</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/data_converter/kitti_data_utils.py</url>
+          <line>212</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/data_converter/kitti_data_utils.py</url>
+          <line>291</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_data_custom.py</url>
+          <line>236</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_data_custom.py</url>
+          <line>140</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_data_custom.py</url>
+          <line>144</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_data_custom.py</url>
+          <line>150</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_data_custom.py</url>
+          <line>166</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_data_custom.py</url>
+          <line>167</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_data_custom.py</url>
+          <line>177</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_data_custom.py</url>
+          <line>169</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_gt_database_custom.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_data_custom.py</url>
+          <line>226</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_data_custom.py</url>
+          <line>228</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_gt_database_custom.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_gt_database_custom.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/create_gt_database_custom.py</url>
+          <line>145</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/draft.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/datasets/pipelines/dbsampler.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/data_converter/create_gt_database.py</url>
+          <line>246</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/core/evaluation/kitti_utils/eval.py</url>
+          <line>723</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/core/evaluation/kitti_utils/eval.py</url>
+          <line>677</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/datasets/kitti_dataset.py</url>
+          <line>357</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/apis/inference.py</url>
+          <line>353</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/apis/inference.py</url>
+          <line>352</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/apis/inference.py</url>
+          <line>351</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/datasets/kitti_dataset.py</url>
+          <line>296</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/datasets/kitti_dataset.py</url>
+          <line>300</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/datasets/kitti_dataset.py</url>
+          <line>424</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/datasets/kitti_dataset.py</url>
+          <line>665</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/datasets/pipelines/loading.py</url>
+          <line>508</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/apis/train.py</url>
+          <line>206</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/datasets/custom_3d.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/datasets/custom_3d.py</url>
+          <line>339</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/datasets/purelidar_dataset.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.PyCharm2019.3/system/remote_sources/1463116113/-1272079221/mmcv/runner/epoch_based_runner.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/core/evaluation/purelidar_eval.py</url>
+          <line>230</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/core/evaluation/purelidar_eval.py</url>
+          <line>280</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/core/evaluation/purelidar_eval.py</url>
+          <line>277</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/datasets/purelidar_dataset.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mmdet3d/core/evaluation/purelidar_eval.py</url>
+          <line>307</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/draft.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mmdetection3d$rotate_points_py.coverage" NAME="rotate_points.py Coverage Results" MODIFIED="1671872540197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mmdetection3d$pcd_bin_converter_py.coverage" NAME="pcd_bin_converter.py Coverage Results" MODIFIED="1672373147121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/mmdetection3d$create_data_py.coverage" NAME="create_data.py Coverage Results" MODIFIED="1672205235792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/mmdetection3d$draft_py.coverage" NAME="draft.py Coverage Results" MODIFIED="1672380445104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mmdetection3d$pcd_demo_py.coverage" NAME="pcd_demo.py Coverage Results" MODIFIED="1672240258446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/mmdetection3d$train_pointpillars_custom_py.coverage" NAME="train_pointpillars_custom.py Coverage Results" MODIFIED="1672300834535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/mmdetection3d$train_py.coverage" NAME="train_second.py Coverage Results" MODIFIED="1669374006334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/mmdetection3d$train_pointpillars_py.coverage" NAME="train_pointpillars.py Coverage Results" MODIFIED="1672280281836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mmdetection3d$create_data_custom_py.coverage" NAME="create_data_custom.py Coverage Results" MODIFIED="1672221169322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+  </component>
+</project>
